@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./images/bg.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: #9385e7;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 50px;
+}
+
+h3{
+    color: rgb(164, 206, 243);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.link_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0 280px;
+
+    background-color: rgba(72, 155, 233, 0.15);  
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    
+    height: 500px;
+}
+
+.link_container a{
+    color: #1b1b1b;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: aliceblue;
+    transition: all 0.2s;
+}
+
+.easy:hover{
+    color: chartreuse;
+}
+.medium:hover{
+    color: yellow;
+}
+.hard:hover{
+    color: rgb(218, 49, 49);
+}
+
+.easy_container{
+    border: 2px solid green;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.medium_container{
+    border: 2px solid yellow;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.hard_container{
+    border: 2px solid rgb(218, 49, 49);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.copyright{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+}
